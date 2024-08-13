@@ -3,14 +3,35 @@ body {
 }
 
 .titulo {
-    font-size: 40px;
+    font-size: 3em;
     color: #000;
+}
+
+
+.logo{
+    width: 200px;
+}
+
+.cards{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 0 1em 1em 1em;
+    border-radius: 10%;
+    transition: 1s;
+    
+}
+
+.cards:hover {
+    background-color: #0595a4;
 }
 
 #principal {
     font-size: 70px;
 }
 
-.logo{
-    width: 200px;
+#titulos {
+    border: 2px solid black;
+    width: 65vw;
+    margin: auto;
+    padding: 3em;
 }

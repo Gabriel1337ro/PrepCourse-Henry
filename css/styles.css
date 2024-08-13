@@ -1,0 +1,16 @@
+body {
+    background-color: #999;
+}
+
+.titulo {
+    font-size: 40px;
+    color: #000;
+}
+
+#principal {
+    font-size: 70px;
+}
+
+.logo{
+    width: 200px;
+}

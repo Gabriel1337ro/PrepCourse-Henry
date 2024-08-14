@@ -1,0 +1,72 @@
+/* Reset de estilos para garantizar consistencia en todos los navegadores */
+
+/* Elimina márgenes y rellenos, y establece box-sizing para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Establece una fuente base y altura de línea para html y body */
+  html, body {
+    font-family: 'Arial', sans-serif; /* Fuente estándar para el texto */
+    line-height: 1.5; /* Altura de línea para una mejor legibilidad */
+    color: #333; /* Color del texto para buena legibilidad */
+    background-color: #fff; /* Color de fondo blanco por defecto */
+  }
+  
+  /* Elimina subrayado en enlaces y asegura que hereden el color del texto */
+  a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+  }
+  
+  /* Elimina estilos predeterminados de listas */
+  ul, ol {
+    list-style: none; /* Elimina los puntos y números en las listas */
+  }
+  
+  /* Asegura que las tablas se vean consistentes */
+  table {
+    border-collapse: collapse; /* Colapsa los bordes de las tablas */
+    border-spacing: 0; /* Elimina el espacio entre celdas */
+  }
+  
+  /* Ajusta el tamaño de las imágenes para que se adapten al contenedor */
+  img {
+    max-width: 100%; /* Limita el ancho máximo al 100% del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+  }
+  
+  /* Elimina el estilo predeterminado de botones */
+  button {
+    border: none; /* Elimina el borde por defecto */
+    background: none; /* Elimina el fondo por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    cursor: pointer; /* Cambia el cursor a una mano para botones */
+  }
+  
+  /* Estiliza campos de entrada y áreas de texto */
+  input, textarea {
+    border: none; /* Elimina el borde por defecto */
+    outline: none; /* Elimina el contorno de enfoque */
+  }
+  
+  /* Elimina márgenes de los encabezados y establece un peso de fuente normal */
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal; /* Establece el peso de fuente normal */
+    margin: 0; /* Elimina los márgenes predeterminados */
+  }
+  
+  /* Elimina márgenes y relleno en bloques de cita, y quita las comillas predeterminadas */
+  blockquote {
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 0; /* Elimina el relleno por defecto */
+    quotes: none; /* Quita las comillas predeterminadas */
+  }
+  
+  /* Usa una fuente monoespaciada para el texto en código */
+  code, pre {
+    font-family: 'Courier New', monospace; /* Fuente monoespaciada para código */
+  }
+  
